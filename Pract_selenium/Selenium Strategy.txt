@@ -1,0 +1,17 @@
+Selenium automation starup tool
+
+first java jdk hai - checked
+2nd eclipse - checked
+3rd download selenium - checked
+4th 
+4.1 eclipse me java project bnao and 
+4.2 usme ek file create kro(lib) usme 
+4.3 selenium copy kro and then 
+4.4 selenium me right click krk built path configuration kro.  that's it.
+
+and now automation k liye Webdriver use kro and ChromeDriver v => Webdriver driver = new Chromedriver();
+
+automation for Dynamic Radio button => use XPATH and WEBELEMENT 
+//span[@class='_5k_2 _5dba']/input[preceding-sibling::label[text()='Male']]
+ 	WebElement elementMale = driver.findElement(By.xpath("//span[@class='_5k_2 _5dba']/input[preceding-sibling::label[text()='Male']]"));
+ 	elementMale.click();
